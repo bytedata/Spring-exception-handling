@@ -22,7 +22,7 @@ public class OrderService {
 		List<Order> orderList = new ArrayList<>();
 		orderList.add(new Order(777, "chetak", "Automobil", 50000));
 		orderList.add(new Order(444, "tata", "Commer-vehicle", 400000));
-		orderList.add(new Order(111, "hero", "bycycle", 3000));
+		orderList.add(new Order(111, "hero", "bicycle", 3000));
 		orderDao.saveAll(orderList);
 
 	}
